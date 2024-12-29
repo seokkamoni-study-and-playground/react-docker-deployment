@@ -1,0 +1,4 @@
+services:
+  react-service-app:
+    build:
+      context: .

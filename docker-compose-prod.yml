@@ -1,0 +1,10 @@
+services:
+  react-service-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=Seokjin Kim
+        - REACT_APP_TITLE=Poki-prod
+    ports:
+      - "8080:80"
